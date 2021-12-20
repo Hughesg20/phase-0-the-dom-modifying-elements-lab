@@ -1,7 +1,8 @@
-const element = document.getElementsByID('main');
-main.removeChild();  
+const newHeader = document.createElement("h1");
+document.body.appendChild(newHeader);
+newHeader.id = "victory";
+document.querySelector("h1#victory");
 
-const newHeader = document.getElementsByTagName('h1');
+newHeader.textContent = "BIGGUY is the champion";
 
-newHeader = document.getElementsByID('victory')
-
+mainWithMainId = document.querySelector("#main").remove();
